@@ -19,7 +19,7 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   width: 80%;
-  height: 600px;
+  height: 500px;
   border-radius: 60px;
   background: #180c24;
   display: flex;
@@ -74,22 +74,18 @@ h2 {
 }
 
 .area-login label input {
-  background-color: #5a476b;
+  background-color: #ffffff;
   justify-content: center;
   margin: 0 10%;
   border-radius: 5px;
   border: 0;
+  padding: 10px;
 }
 
 .area-login legend {
-  color: #5a476b;
+  color: #fdfdfd;
   font-weight: 700;
   margin: 7% 0;
-}
-
-.area-login input {
-  color: #ffffff;
-  padding: 10px;
 }
 
 .area-login h3 {
@@ -98,23 +94,18 @@ h2 {
 
 #btn {
   margin: 5% 10%;
-  color: #564669;
-  background-color: #00FF88;
+  color: #ffffff;
+  background-color: #000000;
   border-radius: 10px;
-  letter-spacing: 3px;
   padding: 13px;
   border: 0;
-  text-transform: uppercase;
-  font-weight: 700;
+  font-weight: 800;
   font-size: 17px;
   position: relative;
   width: 80%;
+  cursor: pointer;
 }
 
-#btn:hover {
-  transition: all .1s ease-in;
-  background-color: #fff;
-}
 
 #user {
   padding: 15px;
